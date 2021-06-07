@@ -1,10 +1,11 @@
 import React from 'react';
-import { NavContainer, AppTitle, UserName } from './styles';
+import { NavContainer, AppTitle, UserName, AddPage } from './styles';
 
 const Navbar = () => {
   return (
     <NavContainer>
-      <AppTitle>CRUD Carros</AppTitle>
+      <AppTitle href='/'>CRUD Carros</AppTitle>
+      <AddPage href='/adicionar'>Adicionar</AddPage>
       <UserName>usuário</UserName>
     </NavContainer>
   );

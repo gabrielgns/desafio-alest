@@ -9,13 +9,19 @@ export const NavContainer = styled.nav`
   padding: 0px 15px;
 `;
 
-export const AppTitle = styled.p`
+export const AppTitle = styled.a`
   color: #eb7407;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
 `;
 
 export const UserName = styled.p`
   color: #eb7407;
-  font-size: 18px;
+  font-size: 16px;
+`;
+
+export const AddPage = styled.a`
+  color: #eb7407;
+  font-size: 16px;
+  text-decoration: none;
 `;
