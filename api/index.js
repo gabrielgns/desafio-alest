@@ -13,5 +13,6 @@ app.use(bodyParser.json());
 app.use('/api', carRoutes.routes);
 
 app.listen(config.port, () =>
+  // eslint-disable-next-line no-console
   console.log(`App is listening on url http://localhost:${config.port}`)
 );
